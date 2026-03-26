@@ -1,14 +1,32 @@
 <html>
     <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <div class="scoreboard">
+                    <p id="home-score"></p>
+                </div>
+                <div class="inc-btn">
+                    <button id="home-one-btn" onclick="addOneH()">+ 1</button>
+                    <button id="home-two-btn" onclick="addTwoH()">+ 2</button>
+                    <button id="home-three-btn" onclick="addThreeH()">+ 3</button>
+                </div>
             </div>
             <div>
                 <h3>GUEST</h3>
+                <div class="scoreboard">
+                    <p id="guest-score"></p>
+                </div>
+                <div class="inc-btn">
+                    <button id="guest-one-btn" onclick="addOneG()">+ 1</button>
+                    <button id="guest-two-btn" onclick="addTwoG()">+ 2</button>
+                    <button id="guest-three-btn" onclick="addThreeG()">+ 3</button>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>

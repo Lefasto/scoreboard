@@ -5,4 +5,57 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 575;
+    height: 385;
+    opacity: 1;
+    background: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    width: 149;
+    height: 36;
+    text-align: center;
+    margin: 70px 0 20px 0;
+}
+
+p {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+.scoreboard {
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    background: #080001;
+}
+
+.inc-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155;
+    height: 45;
+    margin: 25px 0px 70px 0px
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    background: #1B244A;
+    width: 45;
+    height: 45;
+    border-radius: 5px;
+    border-width: 2px;
+    border: 2px solid #9AABD8;
 }
