@@ -36,3 +36,10 @@ function addThreeG() {
     guestCounter += 3;
     guestscore.textContent = guestCounter;
 }
+
+function reset() {
+    homeCounter = 0;
+    guestCounter = 0;
+    homescore.textContent = homeCounter;
+    guestscore.textContent = guestCounter;
+}
